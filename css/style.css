@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-brand img {
+    max-width: 140px;
+}
+
+
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-direction: column;
+    }
+}
+
+.btn {
+    width: 70%;
+    font-size: 22px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+.logo-sm {
+    max-width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
