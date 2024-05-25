@@ -15,6 +15,7 @@ body {
 
 @media (min-width: 992px) {
     .navbar-expand-lg {
+       
         flex-direction: column;
     }
 }
