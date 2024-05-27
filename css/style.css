@@ -37,4 +37,25 @@ p {
     display: block;
 }
 
+/*sistemare h1h2h3*/
+.custom-h1 {
+    font-size: 64px;
+}
 
+.custom-h2 {
+    font-size: 32px;
+}
+
+.custom-h3 {
+    font-size: 28px;
+}
+
+
+.custom-h3 {
+    font-size: 24px;
+}
+
+
+.custom-h3 {
+    font-size: 20px;
+}
