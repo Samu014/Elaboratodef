@@ -37,6 +37,14 @@ p {
     display: block;
 }
 
+.raised-img {
+    margin-top: -250px; 
+}
+
+
+
+
+
 /*sistemare h1h2h3*/
 .custom-h1 {
     font-size: 64px;
@@ -59,3 +67,4 @@ p {
 .custom-h3 {
     font-size: 20px;
 }
+
