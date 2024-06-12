@@ -37,37 +37,35 @@ p {
     display: block;
 }
 
-
-
-/*immagine sez.contattami */
-.contact-img {
-    margin-top: -250px; 
+.logo-ct {
+    max-width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 
 
 
-
-
-/*sistemare h1h2h3*/
-.custom-h1 {
+.h1 {
     font-size: 64px;
+    font-weight: bold;
 }
 
-.custom-h2 {
+.h2 {
     font-size: 32px;
 }
 
-.custom-h3 {
+.h3 {
     font-size: 28px;
 }
 
 
-.custom-h4 {
+.h4 {
     font-size: 24px;
 }
 
 
-.custom-h5 {
+.h5 {
     font-size: 20px;
 }
 
