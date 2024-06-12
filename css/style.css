@@ -40,7 +40,7 @@ p {
 
 
 /*immagine sez.contattami */
-.raised-img {
+.contact-img {
     margin-top: -250px; 
 }
 
@@ -62,12 +62,12 @@ p {
 }
 
 
-.custom-h3 {
+.custom-h4 {
     font-size: 24px;
 }
 
 
-.custom-h3 {
+.custom-h5 {
     font-size: 20px;
 }
 
