@@ -68,3 +68,40 @@ p {
     font-size: 20px;
 }
 
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease-in-out;
+    display: block;
+    width: 100%;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1);
+  }
+  
+  .image-container .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.5em 1em;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .image-container:hover .overlay-text {
+    opacity: 1;
+  }
+  .card img {
+    width: 100%;  /* Adatta la larghezza all'interno della card */
+    height: 200px; /* Imposta un'altezza fissa */
+    object-fit: cover; /* Assicura che l'immagine riempia lo spazio senza deformarsi */
+    border-radius: 8px; /* (Opzionale) Arrotonda gli angoli per un design più elegante */
+
+}
