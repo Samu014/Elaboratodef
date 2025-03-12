@@ -71,6 +71,7 @@ p {
 .image-container {
     position: relative;
     overflow: hidden;
+    
   }
   
   .image-container img {
@@ -80,7 +81,7 @@ p {
   }
   
   .image-container:hover img {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
   
   .image-container .overlay-text {
