@@ -68,23 +68,31 @@ p {
     font-size: 20px;
 }
 
-.image-container {
+.image-container{ 
     position: relative;
     overflow: hidden;
-    
-  }
-  
-  .image-container img {
+    width: 100%;
+   
+}
+.image-container1{ 
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+.image-container img, .image-container1 img {
     transition: transform 0.3s ease-in-out;
     display: block;
     width: 100%;
-  }
-  
-  .image-container:hover img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-container:hover img, .image-container1:hover img {
     transform: scale(1.2);
-  }
-  
-  .image-container .overlay-text {
+}
+
+.image-container .overlay-text, .image-container1 .overlay-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -94,15 +102,11 @@ p {
     padding: 0.5em 1em;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-  }
-  
-  .image-container:hover .overlay-text {
-    opacity: 1;
-  }
-  .card img {
-    width: 100%;  /* Adatta la larghezza all'interno della card */
-    height: 200px; /* Imposta un'altezza fissa */
-    object-fit: cover; /* Assicura che l'immagine riempia lo spazio senza deformarsi */
-    border-radius: 8px; /* (Opzionale) Arrotonda gli angoli per un design più elegante */
-
+    font-size: 1.2em;
+    border-radius: 5px;
 }
+
+.image-container:hover .overlay-text, .image-container1:hover .overlay-text {
+    opacity: 1;
+}
+
